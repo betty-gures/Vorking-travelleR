@@ -14,14 +14,19 @@ VR language learning app- Pearson collaboration- Week 3 of XR Bootcamp Prototypi
 ***
 ## Resources/Inspiration
 
-Resources: https://game8.co/games/Nintendo-Switch-Sports/archives/376928
-
+Resources: ![image](https://user-images.githubusercontent.com/60520606/200137399-ffc2d3c7-3361-472e-b017-a0c593935ebd.png)
 
 ![image](https://user-images.githubusercontent.com/60520606/198892841-acc6ab39-6979-48d5-a8e5-a97bbf1da774.png)
 
 ## Idea
 
-I would like to try implementing the passthrough effect by simulating the bowling game, but there might be some power-ups, to change the gameplay, speed the ball, slow the ball, friction, etc. The track might also be different with some barriers to avoid.
+## Idea
+
+You are a **cashier** in a foreign country of your choice. 
+
+**Step 1:** As you pass the goods of the customers through the checkout, on the computer screen you see the name of that product- in both languages.  Also, you have buttons on the screen, that you press and the audio of the right pronunciation is played. 
+
+**Step 2:** Your checkout computer is malfunctioning sometimes. In such cases, you have to type in the **name of the goods/quantity/price** manually. This way you practice the words you learned before.
 
 ## Features
 
@@ -29,20 +34,15 @@ I would like to try implementing the passthrough effect by simulating the bowlin
 
 These are the features that your prototype really needs to function or to prove your point.
 
-- The system shall provide an AR experience through the passthough effect
-- The user shall pick up the desired bowling ball
-- Bowling balls shall be different in weight
-- The user shall throw the bowling ball towards obstacles
-- The track shall provide interesting level design
+- Hand tracking while passing goods from the checkout
+- The computer screen of the checkout displays the names of goods (UI for hand tracking, buttons to press)
 
 **Stretch goals:** 
 
 These are features that are nice to have, and that you might implement if you have extra time, or in the future.
 
-- The user shall pick the bowling balls through hand tracking/ pinching from bowling ball holes  
-- Polishing physics
-- Level System and changing tracks
-
+- Polishing
+- Small talk, maybe at the end of the purchase as well
 
 
 ***
@@ -50,7 +50,7 @@ These are features that are nice to have, and that you might implement if you ha
 ![image](https://user-images.githubusercontent.com/60520606/159128271-92556441-6668-4fa6-a548-7519c0c5ad94.png)
 
 
-* This repository will be updated on a regular pace, for one week (2nd November 2022).
+* This repository will be updated on a regular pace, for one week (9th November 2022).
 * At the end of the week, a beautiful, running and error free VR protoype will be delivered. 
 
 
@@ -58,7 +58,7 @@ These are features that are nice to have, and that you might implement if you ha
 
 ![image](https://user-images.githubusercontent.com/60520606/159128215-1d3daa78-beee-49ce-a498-3fd2bf06664a.png)
 
-### Project Name : BowlyX
+### Project Name : Vorking-travelleR
 
 ***
 
@@ -76,7 +76,7 @@ These are features that are nice to have, and that you might implement if you ha
 ### Tools:
 - **Software**:
 
-  Unity, XR interaction Toolkit, Passthough, Hand Tracking
+  Unity, XR interaction Toolkit, Oculus interaction Toolkit, Hand Tracking
   
 - **Hardware**: 
 
