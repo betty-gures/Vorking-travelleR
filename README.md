@@ -18,7 +18,6 @@ Resources:
 
 ![image](https://user-images.githubusercontent.com/60520606/200137399-ffc2d3c7-3361-472e-b017-a0c593935ebd.png)
 
-## Idea
 
 ## Idea
 
