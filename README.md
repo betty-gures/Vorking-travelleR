@@ -8,7 +8,7 @@ VR language learning app- Pearson collaboration- Week 3 of XR Bootcamp Prototypi
 
 ![image](https://user-images.githubusercontent.com/60520606/159128296-733f12f0-7c50-4bbb-aa16-22c3c055d897.png)
 
-* This repostory has been made for **XR Bootcamp's Prototyping** course assignment. Here, Betül Güreş is documenting the important notes, and project essentials of the prototype made for week 2. 
+* This repostory has been made for **XR Bootcamp's Prototyping** course assignment. Here, Betül Güreş is documenting the important notes, and project essentials of the prototype made for week 3. 
 * I am a scholar among the Beyond Inclusion Scholarship program, offering XR Education
 
 ***
