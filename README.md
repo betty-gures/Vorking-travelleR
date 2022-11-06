@@ -40,7 +40,7 @@ These are the features that your prototype really needs to function or to prove 
 These are features that are nice to have, and that you might implement if you have extra time, or in the future.
 
 - Polishing
-- Small talk witch costomers
+- Small talk witch customers
 
 
 ***
