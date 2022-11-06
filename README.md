@@ -2,7 +2,7 @@
 VR language learning app- Pearson collaboration- Week 3 of XR Bootcamp Prototyping
 
 
-### [Project Gameplay Video Link](https://www.youtube.com/watch?v=k_K7RlTcZCE&ab_channel=bet%C3%BClg%C3%BCre%C5%9F)
+### [Project Gameplay Video Link- Coming Soon](https://www.youtube.com)
 
 # Part 1: Scoping
 
