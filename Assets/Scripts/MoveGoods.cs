@@ -10,7 +10,7 @@ public class MoveGoods : MonoBehaviour
     {
         foreach (var good in goods)
         {
-            good.AddForce(Vector3.forward * 0.1f, ForceMode.Impulse);
+            good.AddForce(Vector3.forward * 0.5f, ForceMode.Impulse);
         }
     }
     

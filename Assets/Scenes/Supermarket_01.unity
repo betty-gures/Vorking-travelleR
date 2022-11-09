@@ -2931,7 +2931,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8485173161013635749}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -5703,7 +5715,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9141816029156985660}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -6999,7 +7023,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7536177111554503166}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -7693,10 +7729,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CameraRig: {fileID: 1554889738}
   OculusRig: {fileID: 420556237}
-  ResetPositionCamera: {x: 0, y: 0, z: 0}
-  ResetRotationCamera: {x: 0, y: 90, z: 0}
-  ResetPositionRig: {x: 5, y: 1.437, z: -6.333}
-  ResetRotationRig: {x: 0, y: 90, z: 0}
+  ResetPositionCamera: {x: 5, y: 1, z: -7}
+  ResetRotationCamera: {x: 0, y: 0, z: 0}
+  ResetPositionRig: {x: 5, y: 1, z: -7}
+  ResetRotationRig: {x: 0, y: 0, z: 0}
 --- !u!4 &235119033
 Transform:
   m_ObjectHideFlags: 0
@@ -8938,7 +8974,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5386575051135024476}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -14656,7 +14704,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7041628271601221875}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -14724,10 +14784,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _textTargetEnglish: {fileID: 1783311039}
-  _textTargetGerman: {fileID: 893790851}
+  TextTargetGerman: {fileID: 893790851}
   _productTargetImage: {fileID: 1578411657}
   _audioPlayerEn: {fileID: 1642547232}
   _audioPlayerDe: {fileID: 688991263}
+  correct: {fileID: 54715231}
+  notCorrect: {fileID: 1635838063}
 --- !u!82 &502969971
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15035,7 +15097,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &517313512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15194,6 +15256,7 @@ MonoBehaviour:
   _pronounciaitonEnglish: {fileID: 8300000, guid: 9363e63beb819ce4d91e12f0da47bfa4, type: 3}
   _pronounciaitonGerman: {fileID: 8300000, guid: c12de8dd6ed52f84dad7fba0a05d9c4c, type: 3}
   _productImage: {fileID: 21300000, guid: 581aa5d46fd3d8347a6b65ccf04d76b4, type: 3}
+  isIncorrect: 0
 --- !u!65 &517313522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16693,7 +16756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 417984, guid: 50f545d7af4d5434d82e36e41b9a4267, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.2043
+      value: -8.183
       objectReference: {fileID: 0}
     - target: {fileID: 417984, guid: 50f545d7af4d5434d82e36e41b9a4267, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16844,7 +16907,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &573188835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16921,6 +16984,7 @@ MonoBehaviour:
   _pronounciaitonEnglish: {fileID: 8300000, guid: 9fdd89f92faab4a439584d8283714bdc, type: 3}
   _pronounciaitonGerman: {fileID: 8300000, guid: c8770e6532ba57c4492e75c3f99c09d5, type: 3}
   _productImage: {fileID: 21300000, guid: 252357f2b4ec89741970e4973a4f1824, type: 3}
+  isIncorrect: 0
 --- !u!1001 &573382356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21061,7 +21125,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 256
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -22959,7 +23023,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6348606211305075032}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -28061,7 +28137,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5071954540203681997}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -30562,7 +30650,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2898394802311859183}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -31678,7 +31778,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8542164413814107751}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -34595,7 +34707,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4356877829972461197}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -35852,7 +35976,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8578709095956021997}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -37992,7 +38128,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7178114114377236981}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -38331,7 +38479,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &1163566693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38408,6 +38556,7 @@ MonoBehaviour:
   _pronounciaitonEnglish: {fileID: 8300000, guid: d00ec565ed8d9e34c85eafe1fa5fa3e9, type: 3}
   _pronounciaitonGerman: {fileID: 8300000, guid: 26b4e94635b617d42adc4afdd91d7d80, type: 3}
   _productImage: {fileID: 21300000, guid: 489b6345027fa634cb2f40a1d97a65bc, type: 3}
+  isIncorrect: 1
 --- !u!1 &1164068064
 GameObject:
   m_ObjectHideFlags: 0
@@ -40883,7 +41032,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8707273952015240397}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -41584,7 +41745,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6461109676271044233}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -41615,7 +41788,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8567716999907515323}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -41695,7 +41880,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5640423264926341462}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -43057,7 +43254,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6014503083602637935}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -43267,7 +43476,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6947464326921261703}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -47746,7 +47967,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6490625523645097719}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -48025,13 +48258,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9f5d005da86e2154bb3a545666e0249c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.414
+  m_Volume: 0.075
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 217
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -48153,13 +48386,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e3169965173210e44bec867adc3905bf, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.169
+  m_Volume: 0.03
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 217
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -49390,7 +49623,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9170846853794936007}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -49599,31 +49844,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.954
+      value: 5.169
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.847
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.614
+      value: -6.185
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5849424
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.81107485
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -49631,7 +49876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 108.402
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -50425,7 +50670,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5586477883650944306}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -52004,7 +52261,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5252682845011697718}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -52596,7 +52865,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 502969970}
+        m_TargetAssemblyTypeName: ComputerBehaviour, Assembly-CSharp
+        m_MethodName: OnEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -53117,7 +53398,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8544783547464215320}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -53592,7 +53885,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8542036705324063722}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -55417,7 +55722,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 256
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -56480,7 +56785,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &1669279390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56557,6 +56862,7 @@ MonoBehaviour:
   _pronounciaitonEnglish: {fileID: 8300000, guid: cc8e7e32e01c08f40abb0e9c8a4abf19, type: 3}
   _pronounciaitonGerman: {fileID: 8300000, guid: 39d85e0afac51074ab1fb5b83b1f552f, type: 3}
   _productImage: {fileID: 21300000, guid: b07c7b78212a6c6469f8db1738aa77e0, type: 3}
+  isIncorrect: 0
 --- !u!1001 &1670316499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57079,7 +57385,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6248574977541724449}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -57948,7 +58266,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9217234436615760569}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -60087,7 +60417,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8906773800200571918}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -62069,7 +62411,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2050809774661135206}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -62284,7 +62638,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4524298507030489162}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -63594,7 +63960,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7333631254137944448}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -64448,7 +64826,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7103153011712508339}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -65434,7 +65824,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8628502784142721721}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -65956,7 +66358,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6772912781949621509}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -67178,6 +67592,7 @@ GameObject:
   - component: {fileID: 2009053697}
   - component: {fileID: 2009053696}
   - component: {fileID: 2009053700}
+  - component: {fileID: 2009053701}
   m_Layer: 0
   m_Name: Cube.005 (1)
   m_TagString: Untagged
@@ -67215,7 +67630,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2009053701}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnDelete
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -67378,6 +67805,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2009053701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009053694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: DELETE
 --- !u!1 &2009507393
 GameObject:
   m_ObjectHideFlags: 0
@@ -67540,7 +67980,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8009987136920043027}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -68097,7 +68549,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8616184512107030867}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -68242,7 +68706,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2036138528}
         m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
@@ -68254,7 +68718,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   _whenMove:
     m_PersistentCalls:
@@ -68277,7 +68741,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &2036138532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68354,6 +68818,7 @@ MonoBehaviour:
   _pronounciaitonEnglish: {fileID: 8300000, guid: 952afcf6eb7ac9546858b32b62d61b0a, type: 3}
   _pronounciaitonGerman: {fileID: 8300000, guid: b6d98de6eafd4b64eaa1e26406bae197, type: 3}
   _productImage: {fileID: 21300000, guid: 41b727acefdf64043b93ced836f435e9, type: 3}
+  isIncorrect: 0
 --- !u!65 &2036138538
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69652,7 +70117,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6085649863145330907}
+        m_TargetAssemblyTypeName: KeyPress, Assembly-CSharp
+        m_MethodName: OnLetterPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
       m_Calls: []
@@ -71589,6 +72066,7 @@ GameObject:
   - component: {fileID: 1826310078}
   - component: {fileID: 1826310075}
   - component: {fileID: 2050809774661135205}
+  - component: {fileID: 2050809774661135206}
   m_Layer: 0
   m_Name: Cube.008
   m_TagString: Untagged
@@ -71928,6 +72406,7 @@ GameObject:
   - component: {fileID: 930090490}
   - component: {fileID: 930090489}
   - component: {fileID: 5071954540203681996}
+  - component: {fileID: 5071954540203681997}
   m_Layer: 0
   m_Name: Cube.034
   m_TagString: Untagged
@@ -72016,7 +72495,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &919132148450957693
 GameObject:
   m_ObjectHideFlags: 0
@@ -72032,7 +72511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &945454401400043332
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -72431,6 +72910,7 @@ GameObject:
   - component: {fileID: 287017576}
   - component: {fileID: 287017575}
   - component: {fileID: 5386575051135024475}
+  - component: {fileID: 5386575051135024476}
   m_Layer: 0
   m_Name: Cube.014
   m_TagString: Untagged
@@ -72565,6 +73045,7 @@ GameObject:
   - component: {fileID: 1833781837}
   - component: {fileID: 1833781836}
   - component: {fileID: 4524298507030489161}
+  - component: {fileID: 4524298507030489162}
   m_Layer: 0
   m_Name: Cube.024
   m_TagString: Untagged
@@ -72652,6 +73133,7 @@ GameObject:
   - component: {fileID: 1506494923}
   - component: {fileID: 1506494922}
   - component: {fileID: 5586477883650944305}
+  - component: {fileID: 5586477883650944306}
   m_Layer: 0
   m_Name: Cube.033
   m_TagString: Untagged
@@ -72731,6 +73213,7 @@ GameObject:
   - component: {fileID: 991773169}
   - component: {fileID: 991773168}
   - component: {fileID: 2898394802311859182}
+  - component: {fileID: 2898394802311859183}
   m_Layer: 0
   m_Name: Cube.013
   m_TagString: Untagged
@@ -72858,6 +73341,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2050809774661135206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281855663287207948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 1
 --- !u!4 &2114071027593247190
 Transform:
   m_ObjectHideFlags: 0
@@ -72980,6 +73476,7 @@ GameObject:
   - component: {fileID: 1272153916}
   - component: {fileID: 1272153913}
   - component: {fileID: 8567716999907515322}
+  - component: {fileID: 8567716999907515323}
   m_Layer: 0
   m_Name: Cube.010
   m_TagString: Untagged
@@ -73055,7 +73552,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -73141,6 +73638,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2898394802311859183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951922368884664249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 6
 --- !u!23 &2927593091051023597
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -73481,6 +73991,7 @@ GameObject:
   - component: {fileID: 1027186096}
   - component: {fileID: 1027186095}
   - component: {fileID: 8542164413814107750}
+  - component: {fileID: 8542164413814107751}
   m_Layer: 0
   m_Name: Cube.025
   m_TagString: Untagged
@@ -73544,6 +74055,7 @@ GameObject:
   - component: {fileID: 1306444003}
   - component: {fileID: 1306444000}
   - component: {fileID: 6947464326921261702}
+  - component: {fileID: 6947464326921261703}
   m_Layer: 0
   m_Name: Cube.029
   m_TagString: Untagged
@@ -73687,6 +74199,7 @@ GameObject:
   - component: {fileID: 1958604394}
   - component: {fileID: 1958604391}
   - component: {fileID: 6772912781949621508}
+  - component: {fileID: 6772912781949621509}
   m_Layer: 0
   m_Name: Cube.019
   m_TagString: Untagged
@@ -73766,6 +74279,7 @@ GameObject:
   - component: {fileID: 1746895967}
   - component: {fileID: 1065228277}
   - component: {fileID: 4356877829972461196}
+  - component: {fileID: 4356877829972461197}
   m_Layer: 0
   m_Name: Cube.018
   m_TagString: Untagged
@@ -73869,6 +74383,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4356877829972461197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4356877829972461195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: B
 --- !u!4 &4406155115280571300
 Transform:
   m_ObjectHideFlags: 0
@@ -73957,6 +74484,7 @@ GameObject:
   - component: {fileID: 1768870151}
   - component: {fileID: 1768870148}
   - component: {fileID: 8906773800200571917}
+  - component: {fileID: 8906773800200571918}
   m_Layer: 0
   m_Name: Cube.020
   m_TagString: Untagged
@@ -73990,7 +74518,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -74076,6 +74604,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4524298507030489162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707942937077836366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: H
 --- !u!33 &4668013533550298016
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -74168,7 +74709,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -74254,6 +74795,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5071954540203681997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671717964971357163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: S
 --- !u!1 &5089668103928675581
 GameObject:
   m_ObjectHideFlags: 0
@@ -74268,6 +74822,7 @@ GameObject:
   - component: {fileID: 1273438892}
   - component: {fileID: 1273438891}
   - component: {fileID: 5640423264926341461}
+  - component: {fileID: 5640423264926341462}
   m_Layer: 0
   m_Name: Cube.041
   m_TagString: Untagged
@@ -74397,6 +74952,7 @@ GameObject:
   - component: {fileID: 1545051622}
   - component: {fileID: 1545051621}
   - component: {fileID: 5252682845011697717}
+  - component: {fileID: 5252682845011697718}
   m_Layer: 0
   m_Name: Cube.016
   m_TagString: Untagged
@@ -74414,7 +74970,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -74500,6 +75056,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5252682845011697718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5252682845011697716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 9
 --- !u!4 &5328442483800650715
 Transform:
   m_ObjectHideFlags: 0
@@ -74600,7 +75169,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -74686,6 +75255,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5386575051135024476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502877292984644963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 7
 --- !u!23 &5425505347911946981
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -74742,6 +75324,7 @@ GameObject:
   - component: {fileID: 1417134912}
   - component: {fileID: 1417134909}
   - component: {fileID: 6490625523645097718}
+  - component: {fileID: 6490625523645097719}
   m_Layer: 0
   m_Name: Cube.021
   m_TagString: Untagged
@@ -74775,7 +75358,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -74861,6 +75444,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5586477883650944306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835210008820564795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: R
 --- !u!33 &5640423264926341460
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -74879,7 +75475,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -74965,6 +75561,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5640423264926341462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5089668103928675581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: Y
 --- !u!4 &5680519943379750114
 Transform:
   m_ObjectHideFlags: 0
@@ -74995,6 +75604,7 @@ GameObject:
   - component: {fileID: 1481140145}
   - component: {fileID: 1481140142}
   - component: {fileID: 9170846853794936006}
+  - component: {fileID: 9170846853794936007}
   m_Layer: 0
   m_Name: Cube.030
   m_TagString: Untagged
@@ -75016,6 +75626,7 @@ GameObject:
   - component: {fileID: 2035672995}
   - component: {fileID: 2035672992}
   - component: {fileID: 8616184512107030866}
+  - component: {fileID: 8616184512107030867}
   m_Layer: 0
   m_Name: Cube.028
   m_TagString: Untagged
@@ -75077,6 +75688,7 @@ GameObject:
   - component: {fileID: 1302882877}
   - component: {fileID: 1302882876}
   - component: {fileID: 6014503083602637934}
+  - component: {fileID: 6014503083602637935}
   m_Layer: 0
   m_Name: Cube.015
   m_TagString: Untagged
@@ -75094,7 +75706,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -75180,6 +75792,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6014503083602637935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014503083602637933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 8
 --- !u!23 &6027543246774817071
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -75236,6 +75861,7 @@ GameObject:
   - component: {fileID: 2089433573}
   - component: {fileID: 2089433570}
   - component: {fileID: 6085649863145330906}
+  - component: {fileID: 6085649863145330907}
   m_Layer: 0
   m_Name: Cube.037
   m_TagString: Untagged
@@ -75339,6 +75965,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6085649863145330907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6085649863145330905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: U
 --- !u!33 &6116889430658846932
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -75369,6 +76008,7 @@ GameObject:
   - component: {fileID: 1675898582}
   - component: {fileID: 1675898579}
   - component: {fileID: 6248574977541724448}
+  - component: {fileID: 6248574977541724449}
   m_Layer: 0
   m_Name: Cube.039
   m_TagString: Untagged
@@ -75472,6 +76112,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6248574977541724449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248574977541724447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: W
 --- !u!23 &6272350532824232833
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -75586,6 +76239,7 @@ GameObject:
   - component: {fileID: 735796149}
   - component: {fileID: 735796148}
   - component: {fileID: 6348606211305075031}
+  - component: {fileID: 6348606211305075032}
   m_Layer: 0
   m_Name: Cube.031
   m_TagString: Untagged
@@ -75603,7 +76257,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -75689,6 +76343,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6348606211305075032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6348606211305075030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: P
 --- !u!1 &6458859408336602688
 GameObject:
   m_ObjectHideFlags: 0
@@ -75703,6 +76370,7 @@ GameObject:
   - component: {fileID: 1265795576}
   - component: {fileID: 1265795575}
   - component: {fileID: 6461109676271044232}
+  - component: {fileID: 6461109676271044233}
   m_Layer: 0
   m_Name: Cube.022
   m_TagString: Untagged
@@ -75736,7 +76404,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -75822,6 +76490,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6461109676271044233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6458859408336602688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: F
 --- !u!4 &6490625523645097717
 Transform:
   m_ObjectHideFlags: 0
@@ -75934,6 +76615,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6490625523645097719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444727771353157295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: E
 --- !u!23 &6745302440420854548
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -76080,6 +76774,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6772912781949621509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4316533145989041874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: C
 --- !u!4 &6830945431549094172
 Transform:
   m_ObjectHideFlags: 0
@@ -76250,6 +76957,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6947464326921261703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3469311692272915822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: N
 --- !u!1 &7041628271601221873
 GameObject:
   m_ObjectHideFlags: 0
@@ -76264,6 +76984,7 @@ GameObject:
   - component: {fileID: 499580226}
   - component: {fileID: 499580225}
   - component: {fileID: 7041628271601221874}
+  - component: {fileID: 7041628271601221875}
   m_Layer: 0
   m_Name: Cube.017
   m_TagString: Untagged
@@ -76281,7 +77002,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -76367,6 +77088,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7041628271601221875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7041628271601221873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 0
 --- !u!1 &7103153011712508337
 GameObject:
   m_ObjectHideFlags: 0
@@ -76381,6 +77115,7 @@ GameObject:
   - component: {fileID: 1913293107}
   - component: {fileID: 1913293104}
   - component: {fileID: 7103153011712508338}
+  - component: {fileID: 7103153011712508339}
   m_Layer: 0
   m_Name: Cube.038
   m_TagString: Untagged
@@ -76484,6 +77219,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7103153011712508339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7103153011712508337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: V
 --- !u!4 &7129599250460442394
 Transform:
   m_ObjectHideFlags: 0
@@ -76514,6 +77262,7 @@ GameObject:
   - component: {fileID: 1366978969}
   - component: {fileID: 1153985662}
   - component: {fileID: 7178114114377236980}
+  - component: {fileID: 7178114114377236981}
   m_Layer: 0
   m_Name: Cube.009
   m_TagString: Untagged
@@ -76617,6 +77366,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7178114114377236981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7178114114377236979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 2
 --- !u!1 &7183117987490144936
 GameObject:
   m_ObjectHideFlags: 0
@@ -76631,6 +77393,7 @@ GameObject:
   - component: {fileID: 1938914181}
   - component: {fileID: 1938914180}
   - component: {fileID: 8628502784142721720}
+  - component: {fileID: 8628502784142721721}
   m_Layer: 0
   m_Name: Cube.023
   m_TagString: Untagged
@@ -76660,6 +77423,7 @@ GameObject:
   - component: {fileID: 205608741}
   - component: {fileID: 205608740}
   - component: {fileID: 7536177111554503165}
+  - component: {fileID: 7536177111554503166}
   m_Layer: 0
   m_Name: Cube.040
   m_TagString: Untagged
@@ -76681,6 +77445,7 @@ GameObject:
   - component: {fileID: 1892440423}
   - component: {fileID: 1892440422}
   - component: {fileID: 7333631254137944447}
+  - component: {fileID: 7333631254137944448}
   m_Layer: 0
   m_Name: Cube.042
   m_TagString: Untagged
@@ -76698,7 +77463,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -76784,6 +77549,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7333631254137944448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7333631254137944446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: Z
 --- !u!23 &7416691523167989151
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -76844,7 +77622,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -76930,6 +77708,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7536177111554503166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7331741612032297629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: X
 --- !u!33 &7606442908528269361
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -76994,6 +77785,7 @@ GameObject:
   - component: {fileID: 1577231491}
   - component: {fileID: 1577231490}
   - component: {fileID: 8401952776267363695}
+  - component: {fileID: 8401952776267363696}
   m_Layer: 0
   m_Name: Cube.005
   m_TagString: Untagged
@@ -77015,6 +77807,7 @@ GameObject:
   - component: {fileID: 1611751049}
   - component: {fileID: 1611751048}
   - component: {fileID: 8542036705324063721}
+  - component: {fileID: 8542036705324063722}
   m_Layer: 0
   m_Name: Cube.035
   m_TagString: Untagged
@@ -77094,6 +77887,7 @@ GameObject:
   - component: {fileID: 2013518511}
   - component: {fileID: 2013518508}
   - component: {fileID: 8009987136920043026}
+  - component: {fileID: 8009987136920043027}
   m_Layer: 0
   m_Name: Cube.011
   m_TagString: Untagged
@@ -77197,6 +77991,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8009987136920043027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8009987136920043025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 4
 --- !u!23 &8102382927098270560
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -77273,7 +78080,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -77359,6 +78166,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8401952776267363696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623545439724488915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: ENTER
 --- !u!1 &8416272006850596158
 GameObject:
   m_ObjectHideFlags: 0
@@ -77373,6 +78193,7 @@ GameObject:
   - component: {fileID: 1593705930}
   - component: {fileID: 1593705927}
   - component: {fileID: 8544783547464215319}
+  - component: {fileID: 8544783547464215320}
   m_Layer: 0
   m_Name: Cube.002
   m_TagString: Untagged
@@ -77410,6 +78231,7 @@ GameObject:
   - component: {fileID: 1756795453}
   - component: {fileID: 73263608}
   - component: {fileID: 8485173161013635748}
+  - component: {fileID: 8485173161013635749}
   m_Layer: 0
   m_Name: Cube.012
   m_TagString: Untagged
@@ -77513,6 +78335,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8485173161013635749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8485173161013635747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 5
 --- !u!33 &8542036705324063720
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -77531,7 +78366,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -77617,6 +78452,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8542036705324063722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7664650469770612515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: T
 --- !u!4 &8542164413814107749
 Transform:
   m_ObjectHideFlags: 0
@@ -77643,7 +78491,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -77729,6 +78577,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8542164413814107751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3455292423388324206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: I
 --- !u!23 &8544783547464215318
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -77867,6 +78728,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8544783547464215320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416272006850596158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: K
 --- !u!23 &8567716999907515321
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -78005,6 +78879,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8567716999907515323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459513671109805119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 3
 --- !u!1 &8578709095956021995
 GameObject:
   m_ObjectHideFlags: 0
@@ -78019,6 +78906,7 @@ GameObject:
   - component: {fileID: 1104459801}
   - component: {fileID: 1104459800}
   - component: {fileID: 8578709095956021996}
+  - component: {fileID: 8578709095956021997}
   m_Layer: 0
   m_Name: Cube.032
   m_TagString: Untagged
@@ -78036,7 +78924,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -78122,6 +79010,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8578709095956021997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8578709095956021995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: 
 --- !u!23 &8616184512107030865
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -78260,6 +79161,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8616184512107030867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5813186244537116288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: M
 --- !u!23 &8628502784142721719
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -78312,7 +79226,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -78398,6 +79312,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8628502784142721721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183117987490144936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: G
 --- !u!33 &8678946766070566476
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -78420,6 +79347,7 @@ GameObject:
   - component: {fileID: 1237072527}
   - component: {fileID: 1237072521}
   - component: {fileID: 8707273952015240396}
+  - component: {fileID: 8707273952015240397}
   m_Layer: 0
   m_Name: Cube.001
   m_TagString: Untagged
@@ -78523,6 +79451,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8707273952015240397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707273952015240395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: A
 --- !u!1 &8757042446931242943
 GameObject:
   m_ObjectHideFlags: 0
@@ -78986,6 +79927,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8906773800200571918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4504409720380997380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: D
 --- !u!1 &9014776603892887368
 GameObject:
   m_ObjectHideFlags: 0
@@ -79149,6 +80103,7 @@ GameObject:
   - component: {fileID: 170282943}
   - component: {fileID: 170282942}
   - component: {fileID: 9141816029156985659}
+  - component: {fileID: 9141816029156985660}
   m_Layer: 0
   m_Name: Cube.026
   m_TagString: Untagged
@@ -79166,7 +80121,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de811620b843e244d87689d2ddaac7a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -79252,6 +80207,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &9141816029156985660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9141816029156985658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: J
 --- !u!33 &9170846853794936005
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -79356,6 +80324,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &9170846853794936007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5682876609192321137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: O
 --- !u!1 &9217234436615760567
 GameObject:
   m_ObjectHideFlags: 0
@@ -79370,6 +80351,7 @@ GameObject:
   - component: {fileID: 1710083692}
   - component: {fileID: 1710083689}
   - component: {fileID: 9217234436615760568}
+  - component: {fileID: 9217234436615760569}
   m_Layer: 0
   m_Name: Cube.027
   m_TagString: Untagged
@@ -79473,3 +80455,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &9217234436615760569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217234436615760567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230f72781c6d423498c334afa6e448ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keyLetter: L

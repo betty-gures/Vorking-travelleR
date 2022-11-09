@@ -7,12 +7,16 @@ using UnityEngine.UI;
 
 public class ComputerBehaviour : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI _textTargetEnglish, _textTargetGerman;
+    [SerializeField] private TextMeshProUGUI _textTargetEnglish;
+    public TextMeshProUGUI TextTargetGerman;
     [SerializeField] private Image _productTargetImage;
     [SerializeField] private AudioSource _audioPlayerEn, _audioPlayerDe;
+    [SerializeField] private GameObject correct,notCorrect;
+    
     private AudioSource sound;
     private bool isPressed;
     private GameObject presser;
+
 
     private void Start()
     {
@@ -26,11 +30,24 @@ public class ComputerBehaviour : MonoBehaviour
             sound.Play();
             presser = other.gameObject;
             _textTargetEnglish.text = _superMarketGoods._nameEnglish;
-            _textTargetGerman.text = _superMarketGoods._nameGerman;
-            _productTargetImage.sprite = _superMarketGoods._productImage;
             _audioPlayerEn.clip = _superMarketGoods._pronounciaitonEnglish;
-            _audioPlayerEn.clip = _superMarketGoods._pronounciaitonGerman;
+            _audioPlayerDe.clip = _superMarketGoods._pronounciaitonGerman;
+            _productTargetImage.sprite = _superMarketGoods._productImage;
+            if (!_superMarketGoods.isIncorrect)
+            {
+                TextTargetGerman.text = _superMarketGoods._nameGerman;
+                correct.SetActive(true);
+                notCorrect.SetActive(false);  
+            }
+            else
+            {
+                TextTargetGerman.text = "?";
+                correct.SetActive(false);
+                notCorrect.SetActive(true); 
+            }
+            
         }
+        
     }
     
     private void OnTriggerExit(Collider other)
@@ -39,6 +56,12 @@ public class ComputerBehaviour : MonoBehaviour
         {
             isPressed = false;
         }
+    }
+
+    public void OnEnter()
+    {
+        correct.SetActive(true);
+        notCorrect.SetActive(false);
     }
     
 }
