@@ -4,6 +4,9 @@ VR language learning app- Pearson collaboration- Week 3 of XR Bootcamp Prototypi
 
 ### [Project Gameplay Video Link](https://www.youtube.com/watch?v=twxLuak2HG0&ab_channel=bet%C3%BClg%C3%BCre%C5%9F)
 
+![Working_Traveller_Demo_AdobeExpress](https://user-images.githubusercontent.com/60520606/200956397-b82a585a-765a-4611-bedb-1ad544dc9e43.gif)
+
+
 # Part 1: Scoping
 
 ![image](https://user-images.githubusercontent.com/60520606/159128296-733f12f0-7c50-4bbb-aa16-22c3c055d897.png)
