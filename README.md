@@ -6,6 +6,9 @@ VR language learning app- Pearson collaboration- Week 3 of XR Bootcamp Prototypi
 
 ![Working_Traveller_Demo_AdobeExpress](https://user-images.githubusercontent.com/60520606/200956397-b82a585a-765a-4611-bedb-1ad544dc9e43.gif)
 
+# Pearson Feedback:
+
+"We picked this one as it is very immersive and realistic. The authentic, real-life tasks allow to learn in the context of use, which can be very effective. This game is not very scalable it terms of replayability with new contexts, but following the concept of arcade-like games for different purposes, we believe this can be a great addition to the other learning experiences in the Lingoverse. If we add some type of storyline and quests, asking learners to accomplish missions to accomplish some larger purpose, this can become a very compelling game."
 
 # Part 1: Scoping
 
